@@ -20,7 +20,6 @@ public class Circular extends Geometry {
 
 	@Override
 	public double getGraphicCircumference() {
-		
 		return radius*2*Math.PI;
 	}
 
