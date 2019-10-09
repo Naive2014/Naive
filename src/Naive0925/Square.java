@@ -27,7 +27,7 @@ public class Square extends Geometry {
 	public String toString() {
 		System.out.println("正方形的面积是"+getGraphicArea());
 		System.out.println("正方形的周长是"+getGraphicCircumference());
-		return "长方形的属性是 [side=" + side + ", color=" + color + ", fill=" + fill + "]";
+		return "正方形的属性是 [side=" + side + ", color=" + color + ", fill=" + fill + "]";
 	}
 	
 	

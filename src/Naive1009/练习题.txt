@@ -1,0 +1,6 @@
+﻿1.使用自己的话表述MVC。
+2.掌握JDBC的基本操作。
+  对book表中的数据进行增删改查；
+  book表：id int，bookName varchar,price int,description varchar
+  Book类：id int，bookName String ，price int，description String
+  提示：创建数据库连接工具类DBUtil类。
