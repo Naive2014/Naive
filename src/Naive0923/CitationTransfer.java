@@ -1,5 +1,9 @@
 package Naive0923;
-
+/**
+ * 值传递与引用传递
+ * @author Naive
+ * @date: 2019年10月9日 下午5:18:32
+ */
 public class CitationTransfer {
     private int num;
     public CitationTransfer(int num){
