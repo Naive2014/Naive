@@ -6,6 +6,12 @@ package Naive1009;
  * @date: 2019年10月9日 下午4:38:20
  */
 public class Book {
+	/*
+	 * id 书本的唯一标识
+	 * bookName 书名
+	 * price 价格
+	 * description 描述
+	 */
 	private int id;
 	private String bookName;
 	private int price;
