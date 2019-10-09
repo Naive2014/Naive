@@ -23,11 +23,9 @@ public class Test {
 	 * @return
 	 */
 	public Geometry logic(){
-		Geometry geometry = null;
+		Geometry geometry = geometries.get(0);
 		for (int i = 0; i < geometries.size(); i++) {
-			if (i == 0) {
-				geometry = geometries.get(i);
-			}else if (geometry.compareTo(geometries.get(i)) != 1) {
+			if (geometry.compareTo(geometries.get(i)) != 1) {
 				geometry = geometries.get(i);
 			}
 		}
